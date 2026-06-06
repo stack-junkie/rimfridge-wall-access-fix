@@ -27,7 +27,7 @@ Fixes RimFridge wall-fridge pathing loops where pawns try to stand on an impassa
 
 Keeps humanlike corpse storage available; the fix is limited to access/pathing behavior.
 
-Patch version: 0.1.0-alpha.0.
+Patch version: 0.1.0-alpha.1.
 
 Also adds defensive temperature/heat null guards for RimFridge buildings to avoid reported wall-fridge rare-tick null references.
   </description>

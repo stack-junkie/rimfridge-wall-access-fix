@@ -101,6 +101,7 @@ $args = @(
     "/nologo",
     "/target:library",
     "/langversion:latest",
+    "/deterministic+",
     "/out:$OutputDll"
 )
 

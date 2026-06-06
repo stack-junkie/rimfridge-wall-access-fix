@@ -2,6 +2,11 @@
 
 This changelog tracks ckvam's compatibility patch, not upstream RimFridge history.
 
+## [0.1.0-alpha.1] - 2026-06-06
+
+- Made the DLL build deterministic so pre-push validation does not leave a dirty compiled assembly.
+- Rebuilt `RimFridgeWallAccessFix.dll` with the deterministic compiler setting.
+
 ## [0.1.0-alpha.0] - 2026-06-06
 
 - Created `RimFridge Wall Access Fix` as a separate RimWorld 1.6 compatibility mod.
