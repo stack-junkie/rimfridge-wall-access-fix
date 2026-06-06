@@ -1,0 +1,3 @@
+#!/bin/sh
+scripts/run_python.cmd scripts/sync_version.py --check || exit 1
+scripts/build.cmd || exit 1

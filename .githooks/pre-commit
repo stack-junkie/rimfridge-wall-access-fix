@@ -1,0 +1,3 @@
+#!/bin/sh
+scripts/run_python.cmd scripts/sync_version.py --check || exit 1
+scripts/run_python.cmd scripts/check_release_metadata.py --staged || exit 1

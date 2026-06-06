@@ -1,0 +1,13 @@
+{
+  "name": "rimfridge-wall-access-fix",
+  "version": "0.1.0-alpha.0",
+  "private": true,
+  "description": "RimWorld compatibility patch for RimFridge wall-fridge access/pathing issues.",
+  "scripts": {
+    "sync-version": "scripts/run_python.cmd scripts/sync_version.py",
+    "check-version": "scripts/run_python.cmd scripts/sync_version.py --check",
+    "check-release": "scripts/run_python.cmd scripts/check_release_metadata.py --staged",
+    "build": "scripts/build.cmd",
+    "install-local": "scripts/install_local.cmd"
+  }
+}

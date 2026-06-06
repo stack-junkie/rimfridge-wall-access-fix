@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pdb
+*.mdb
+*.tmp
+*.log
+.vs/
+bin/
+obj/
+mod/About/PublishedFileId.txt
