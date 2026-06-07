@@ -2,7 +2,7 @@
 
 Local RimWorld 1.6 patch mod for `RimFridge: Now with Shelves!`.
 
-- Patch version: `0.1.0-alpha.1`
+- Patch version: `0.1.0-alpha.2`
 
 ## What it fixes
 

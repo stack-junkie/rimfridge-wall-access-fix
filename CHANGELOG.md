@@ -2,6 +2,11 @@
 
 This changelog tracks ckvam's compatibility patch, not upstream RimFridge history.
 
+## [0.1.0-alpha.2] - 2026-06-07
+
+- Added copy-ready Steam Workshop page fields, required-item guidance, initial change note, and image recommendations.
+- Linked the Workshop upload checklist to the new page-field handoff.
+
 ## [0.1.0-alpha.1] - 2026-06-06
 
 - Made the DLL build deterministic so pre-push validation does not leave a dirty compiled assembly.

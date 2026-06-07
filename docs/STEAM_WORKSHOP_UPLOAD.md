@@ -26,6 +26,8 @@ Use this checklist when publishing or updating the patch mod.
 
 6. Keep the Workshop description clear that this is a compatibility patch and still requires RimFridge.
 
+7. Use `docs\WORKSHOP_PAGE_FIELDS.md` for the copy-ready title, description, required items, change note, and image plan.
+
 Report template:
 
 ```text
