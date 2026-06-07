@@ -65,7 +65,7 @@ Removal should be safe for saves, but any old wall-fridge pathing issue this pat
 Tested on RimWorld 1.6 with RimFridge wall fridges. Confirmed skull extraction from a humanlike corpse stored in a wall fridge completed successfully.
 
 [h2]Version[/h2]
-Patch version: 0.1.0-alpha.2
+Patch version: 0.1.0-alpha.3
 
 [h2]Source[/h2]
 https://github.com/stack-junkie/rimfridge-wall-access-fix
@@ -97,19 +97,22 @@ Use real in-game screenshots as the main visual proof. Generated or abstract art
 ### Primary Preview
 
 - File: `mod\About\Preview.png`
+- Source export: `docs\workshop-images\04-hero-preview-1280x720.png`
+- JPG fallback: `docs\workshop-images\04-hero-preview-1280x720.jpg`
 - Format: PNG or JPG.
 - Shape: 16:9 landscape.
 - Working size: 1280x720, compressed small enough that Steam/RimWorld's uploader accepts it.
-- Content: a clean RimWorld kitchen/dining-wall screenshot with a RimFridge wall fridge visible and a pawn standing beside it.
+- Content: a clean RimWorld kitchen/dining-wall screenshot with RimFridge wall fridges clearly visible.
 - Text overlay: `RimFridge Wall Access Fix` plus small `Requires RimFridge`.
 - Avoid: gore-focused corpse imagery, crowded UI, red error spam, fake 3D renders, or art that hides what the mod actually touches.
 
 ### Extra Workshop Images
 
-1. `Before / Problem`: a pawn/job targeting an item in a wall fridge, with a small caption like `Fixes wall-fridge access jobs`.
-2. `After / Verified`: pawn adjacent to the wall fridge successfully using the stored item/corpse job.
-3. `Dependencies`: a simple screenshot of the mod list order: Harmony, RimFridge, RimFridge Wall Access Fix.
-4. `Scope`: a screenshot of wall fridges in a normal base layout with a caption: `No storage-filter removal; humanlike storage still allowed`.
+1. `docs\workshop-images\05-pawn-lineup-wall-fridges-1280x720.png`: pawn lineup and wall-fridge context.
+2. `docs\workshop-images\01-fridge-close-1280x720.png`: close-up fridge/content view.
+3. `docs\workshop-images\02-room-and-fridges-1280x720.png`: busier room/fridge overview.
+4. `docs\workshop-images\03-fridge-icon-not-recommended-1280x720.png`: stop for hero use; too cropped and blurry for a primary preview.
+5. If possible later, add a simple screenshot of the mod list order: Harmony, RimFridge, RimFridge Wall Access Fix.
 
 Keep the first image clean and readable at thumbnail size. Put diagnostic details in secondary images or the description.
 

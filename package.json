@@ -1,6 +1,6 @@
 {
   "name": "rimfridge-wall-access-fix",
-  "version": "0.1.0-alpha.2",
+  "version": "0.1.0-alpha.3",
   "private": true,
   "description": "RimWorld compatibility patch for RimFridge wall-fridge access/pathing issues.",
   "scripts": {

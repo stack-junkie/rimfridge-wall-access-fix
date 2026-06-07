@@ -1,8 +1,8 @@
-# RimFridge Wall Access Fix v0.1.0-alpha.2
+# RimFridge Wall Access Fix v0.1.0-alpha.3
 
 RimWorld 1.6 compatibility patch for `RimFridge: Now with Shelves!`.
 
-- Version: `0.1.0-alpha.2`
+- Version: `0.1.0-alpha.3`
 - Package ID: `ckvam.rimfridge.wallaccessfix`
 - Live install target: `C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RimFridgeWallAccessFix`
 - Source repo target: `C:\Users\ckvam\Documents\Development\02 Projects\RimWorld Mods\RimFridgeWallAccessFix`

@@ -2,6 +2,12 @@
 
 This changelog tracks ckvam's compatibility patch, not upstream RimFridge history.
 
+## [0.1.0-alpha.3] - 2026-06-07
+
+- Added 1280x720 Workshop-ready image exports with black-bar padding while preserving source aspect ratios.
+- Added the selected hero image to `mod/About/Preview.png` and a JPG fallback.
+- Added a Workshop image manifest and synced the Workshop page field version through `scripts/sync_version.py`.
+
 ## [0.1.0-alpha.2] - 2026-06-07
 
 - Added copy-ready Steam Workshop page fields, required-item guidance, initial change note, and image recommendations.

@@ -64,6 +64,15 @@ def sync_about(version: str, check: bool) -> bool:
     return update_file(path, next_content, check)
 
 
+def sync_workshop_fields(version: str, check: bool) -> bool:
+    path = ROOT / "docs" / "WORKSHOP_PAGE_FIELDS.md"
+    if not path.exists():
+        return False
+    content = path.read_text(encoding="utf-8")
+    next_content = re.sub(r"Patch version: [0-9A-Za-z.-]+", f"Patch version: {version}", content, count=1)
+    return update_file(path, next_content, check)
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Sync version from src/version.py")
     parser.add_argument("--check", action="store_true", help="Report drift without writing")
@@ -82,6 +91,7 @@ def main() -> int:
     drift += sync_readme(version, args.check)
     drift += sync_mod_readme(version, args.check)
     drift += sync_about(version, args.check)
+    drift += sync_workshop_fields(version, args.check)
 
     if args.check and drift:
         print(f"\nVersion sync drift detected for {drift} file(s). Run: scripts\\run_python.cmd scripts\\sync_version.py")
